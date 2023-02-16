@@ -1,0 +1,19 @@
+/*-- Override styles --*/
+figure {
+    width: 50%;
+    margin: 0 auto;
+}
+blockquote {
+    font-size: 200%;
+}
+figcaption{
+    text-align: right;
+}
+figcaption:before {
+    content:'\2014';
+    padding-right: 5px;
+}
+button {
+    width: 30%;
+    margin: auto;
+}

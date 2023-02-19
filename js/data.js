@@ -5,7 +5,7 @@ const noun2 = ["He", "She", "They"];
 
 
 function replaceNoun() {
-    let n = Math.floor(Math.random() * verbone.length);
+    let n = Math.floor(Math.random() * noun.length);
     let wordNoun = document.getElementById('noun');
     document.getElementById('poutput').innerHTML = wordNoun;
     wordNoun.innerHTML = noun[n];

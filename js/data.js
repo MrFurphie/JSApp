@@ -1,16 +1,44 @@
-const verbone = ["join", "run", "laugh", "jump", "kill"];
+const verbpast = ["joined", "ran at", "laughed at", "jumped at", "killed"];
 const adverb = ["hopelessly", "abnormally", "unethically", "viciously", "solidly"];
 const noun = ["He", "She", "They"];
-const noun2 = ["He", "She", "They"];
+const noun2 = ["him.", "her.", "them."];
 
 
 function replaceNoun() {
     let n = Math.floor(Math.random() * noun.length);
     let wordNoun = document.getElementById('noun');
-    document.getElementById('poutput').innerHTML = wordNoun;
+    document.getElementById('noun').innerHTML = wordNoun;
     wordNoun.innerHTML = noun[n];
     console.log(n);
 }
+
+
+function replaceNounTwo() {
+    let nn = Math.floor(Math.random() * noun2.length);
+    let wordNounTwo = document.getElementById('nountwo');
+    document.getElementById('nountwo').innerHTML = wordNounTwo;
+    wordNounTwo.innerHTML = noun2[nn];
+    console.log(nn);
+}
+
+function replaceVerbpast() {
+    let v = Math.floor(Math.random() * verbpast.length);
+    let wordVerb = document.getElementById('verbpast');
+    document.getElementById('verbpast').innerHTML = wordVerb;
+    wordVerb.innerHTML = verbpast[v];
+    console.log(v);
+}
+
+
+function replaceAdverb() {
+    let a = Math.floor(Math.random() * adverb.length);
+    let wordAdverb = document.getElementById('adverb');
+    document.getElementById('adverb').innerHTML = wordAdverb;
+    wordAdverb.innerHTML = adverb[a];
+    console.log(a);
+}
+
+
 
 // function replaceNoun() {
 //     let n = Math.floor(Math.random() * verbone.length);

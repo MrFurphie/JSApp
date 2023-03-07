@@ -3,6 +3,9 @@ figure {
     width: 50%;
     margin: 0 auto;
 }
+h1{
+    text-align: center;
+}
 blockquote {
     font-size: 200%;
 }
@@ -15,5 +18,5 @@ figcaption:before {
 }
 button {
     width: 30%;
-    margin: auto;
+    margin: 1em auto;
 }
